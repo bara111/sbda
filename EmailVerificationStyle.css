@@ -1,0 +1,86 @@
+.wrapper{
+/*
+               position: absolute;
+               transform: translate((-50%,-50%));
+*/
+    display: inline-block;
+               width: 30%;
+    margin-top: -48px;
+           }
+#EMAIL_VERIFICATION__NEEDED path{
+               stroke:#000;
+               fill:#000;
+               stroke-dasharray:400;
+               opacity: 10;
+               animation: AX 4s linear;
+                
+                    animation-name: AX;
+               
+}
+
+
+@keyframes AX{
+    0%{
+        stroke-dasharray:25;
+        fill:none;
+        opacity: 0;
+    }
+    
+    35%{
+        stroke-dasharray:50;
+        fill:none;
+    }
+    
+    60%{
+        stroke-dasharray:75;
+        fill:none;
+    }
+    
+    75%{
+        stroke-dasharray:100;
+        fill:none;
+    }
+    
+    90%{
+        stroke-dasharray:250;
+        fill:rgba(0,0,0,0);
+    }
+    
+    95%{
+        stroke-dasharray:300;
+        fill:rgba(0,0,0,1);
+    }
+    
+
+}
+
+rect{
+    animation-name: rectangle;
+    animation-duration: 2s;
+}
+
+@keyframes rectangle{
+    from{y:303;opacity:0.5}
+    to{y:135;opacity: 1}
+/*
+    0%{
+        y:303;
+    }
+    
+    35%{
+        y:250;
+    }
+    
+    60%{
+        y:200;
+    }
+    
+    75%{
+        y:180;
+    }
+    
+    90%{
+        y:157.9;
+    }
+*/
+}

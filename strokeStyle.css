@@ -1,0 +1,66 @@
+  
+           path{
+               stroke:#fff;
+               fill:#fff;
+               stroke-dasharray:400;
+               opacity: 10;
+               animation: animate 3.5s linear;
+               animation-delay: .4s;
+           }
+           
+           @keyframes animate{
+               0%{
+                   opacity: 0;
+                   fill:none;
+                   stroke-dasharray:0;
+               }
+               
+               25%{
+                   opacity: 10;
+                   fill:none;
+                   stroke-dasharray:80; 
+               }
+               
+               50%{
+                   opacity: 10;
+                   fill:none;
+                   stroke-dasharray:150;
+               }
+               
+               75%{
+                   opacity: 10;
+                   fill:none;
+                   stroke-dasharray:350;
+                   
+               }
+ 
+               
+               90%{
+                   stroke-dasharray:400;
+                   fill:rgba(221, 48, 48,0);
+               }
+               
+               100%{
+                   fill:rgba(255,255,255,1);
+               }
+           }
+           .wrapper{
+               position: absolute;
+               transform: translate((-50%,-50%));
+               width: 40%;
+           }
+
+           .wrapper2{
+               position: absolute;
+               transform: translate((-50%,-50%));
+               width: 70%;
+           }
+
+           .wrapper3{
+               position: absolute;
+               transform: translate((-50%,-50%));
+               width: 50%;
+           }
+           
+
+       
